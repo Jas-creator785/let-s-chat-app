@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwitter_room</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="kwitter_room.css">
+<script src="kwitter_room.js"></script>
+</head>
+<body> 
+  <br>
+ <button id="logout" class="btn-btn-sucess" height=""> LOGOUT</button>
+ <center>
+   <h1> Kwitter </h1> <br> <br>
+   <h2>Welcome</h2>
+   <h3 id="room_name">#Add Room:</h3>
+   <input id="room_name" placeholder="#room-name" class="" type="text"> <br> <br>
+   <button type="text" id="add_room" class="btn-btn-primary" onclick="add_room()">Add Room</button>
+   <h1>#Trending Rooms</h1>
+   <input id="room_name" placeholder="search Room Names" class="form-control" type="text"> <br> <br>
+   <button type="text" id="search" class="btn-btn-primary" onclick="">Search</button>
+ </center>
+</body>
+</html>
